@@ -10,7 +10,6 @@
             android:roundIcon="@mipmap/ic_launcher_round_01"
             android:supportsRtl="true"
             android:resizeableActivity="false"
-            android:hardwareAccelerated="true"
             android:theme="@style/AppTheme"
             tools:ignore="AllowBackup,GoogleAppIndexingWarning,UnusedAttribute">
         <activity android:name=".MainActivity">

@@ -32,6 +32,7 @@
                     app:ckMethod="still"/>
 
             <ImageView
+                    android:id="@+id/shutter_frame"
                     android:layout_width="@dimen/camera_width"
                     android:layout_height="@dimen/camera_height"
                     android:layout_centerHorizontal="true"
@@ -63,36 +64,36 @@
         </android.support.v7.widget.CardView>
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="9dp"
-            android:orientation="vertical">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:textSize="32sp"
-                android:textStyle="bold"
-                android:text="@string/result"/>
-
-            <TextView
-                android:id="@+id/result"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="9dp"
-                android:gravity="center"
-                android:textSize="24sp"
-                android:text="@string/nothing"/>
+                android:orientation="vertical">
 
             <TextView
-                android:id="@+id/confidentiality"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:gravity="center"
-                android:textSize="18sp"
-                android:text="@string/nothing"/>
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="32sp"
+                    android:textStyle="bold"
+                    android:text="@string/result"/>
+
+            <TextView
+                    android:id="@+id/result"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="9dp"
+                    android:gravity="center"
+                    android:textSize="24sp"
+                    android:text="@string/nothing"/>
+
+            <TextView
+                    android:id="@+id/confidentiality"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:text="@string/nothing"/>
 
         </LinearLayout>
 

@@ -10,6 +10,7 @@ Berikut ini merupakan persyaratan yang dibutuhkan untuk menjalankan project ini.
 ### Persyaratan umum
 1. PC/laptop, dengan RAM minimal 4GB (disarankan 8GB)
 2. Windows 8 atau 10 dengan arsitektur 64-Bit
+3. Koneksi internet
 
 ### Code lab I: How to use pre-trained network to build your own AI model
 1. Python versi 3.6 (TensorFlow belum mendukung versi 3.7 ke atas)

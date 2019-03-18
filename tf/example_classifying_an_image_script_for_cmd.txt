@@ -1,0 +1,1 @@
+python -m scripts.label_image --graph=tf_files/output/retrained_graph.pb --image=tf_files/flower_photos/daisy/21652746_cc379e0eea_m.jpg
